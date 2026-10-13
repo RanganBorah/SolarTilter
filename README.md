@@ -4,7 +4,7 @@ An interactive pan-tilt solar panel tracker built on an STM32F103C8T6 ("Blue Pil
 
 Overview
 Two-axis control- one servo tilts the panel up/down, a second servo pans it left/right, each driven by a dedicated pair of push buttons
-Live power monitoring — an INA219 sensor measures the panel's output in real time
+Live power monitoring= an INA219 sensor measures the panel's output in real time
 OLED readout- voltage, current, power, and an efficiency percentage (relative to the peak power observed) are displayed live
 No instructions needed- press a button, watch the panel move and the numbers respond; built for casual audience interaction at a demo or exhibit
 Hardware
