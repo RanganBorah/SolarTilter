@@ -3,10 +3,10 @@ SolarTilter
 An interactive pan-tilt solar panel tracker built on an STM32F103C8T6 ("Blue Pill") microcontroller. Users adjust a solar panel's tilt and pan angle using four push buttons, while an INA219 current/voltage sensor and an SSD1306 OLED display show live voltage, current, power, and an efficiency percentage — giving immediate, hands-on feedback as the panel is angled toward or away from a light source.
 
 Overview
-Two-axis control — one servo tilts the panel up/down, a second servo pans it left/right, each driven by a dedicated pair of push buttons
+Two-axis control- one servo tilts the panel up/down, a second servo pans it left/right, each driven by a dedicated pair of push buttons
 Live power monitoring — an INA219 sensor measures the panel's output in real time
-OLED readout — voltage, current, power, and an efficiency percentage (relative to the peak power observed) are displayed live
-No instructions needed — press a button, watch the panel move and the numbers respond; built for casual audience interaction at a demo or exhibit
+OLED readout- voltage, current, power, and an efficiency percentage (relative to the peak power observed) are displayed live
+No instructions needed- press a button, watch the panel move and the numbers respond; built for casual audience interaction at a demo or exhibit
 Hardware
 Component	Qty	Notes
 STM32F103C8T6 "Blue Pill"	1	Main microcontroller
